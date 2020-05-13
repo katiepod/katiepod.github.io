@@ -1,0 +1,1 @@
+cmd = /home/katie/homer/hemi_module_genes/start_w_m3/m35_b_hemi_genes.txt worm /home/katie/homer/hemi_module_genes/start_w_m3/m35_b_hemi_genes.txt.out.1kb -start -1000 -end 0

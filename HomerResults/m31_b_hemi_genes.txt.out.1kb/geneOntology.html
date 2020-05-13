@@ -1,0 +1,825 @@
+<HTML><HEAD><TITLE>Gene Ontology Results</TITLE></HEAD><BODY>
+<H1>Gene Ontology Enrichment Results</H1>
+<A HREF="homerResults.html">Homer <i>de novo</i> Motif Enrichment Results</A><BR/>
+<A HREF="knownResults.html">Known Motif Enrichment Results</A><BR/>
+<H4>Text file version of complete results (i.e. open with Excel)
+<UL>
+<LI><A HREF="biological_process.txt">biological process</A>: Functional groupings of proteins (<A HREF="http://www.geneontology.org">Gene Ontology</A>)</LI>
+<LI><A HREF="molecular_function.txt">molecular function</A>: Mechanistic actions of proteins (<A HREF="http://www.geneontology.org">Gene Ontology</A>)</LI>
+<LI><A HREF="cellular_component.txt">cellular component</A>: Protein localization (<A HREF="http://www.geneontology.org">Gene Ontology</A>)</LI>
+<LI><A HREF="chromosome.txt">chromosome location</A>: Genes with similar chromosome localization (<A HREF="http://www.ncbi.nlm.nih.gov/gene">NCBI Gene</A>)</LI>
+<LI><A HREF="kegg.txt">KEGG pathways</A>: Groups of proteins in the same pathways (<A HREF="http://www.genome.jp/kegg/pathway.html">KEGG</A>)</LI>
+<LI><A HREF="interactions.txt">protein interactions</A>: "Proteins interacting with a common protein (BIND, EcoCyc, HPRD)" (<A HREF="http://www.ncbi.nlm.nih.gov/gene">NCBI Gene</A>)</LI>
+<LI><A HREF="interpro.txt">interpro domains</A>: Proteins with similar domains and features (<A HREF="http://www.ebi.ac.uk/interpro/">Interpro</A>)</LI>
+<LI><A HREF="pfam.txt">pfam domains</A>: Proteins with similar domains and features (<A HREF="http://www.sanger.ac.uk/Software/Pfam/">Pfam</A>)</LI>
+<LI><A HREF="smart.txt">smart domains</A>: Proteins with similar domains and features (<A HREF="http://smart.embl-heidelberg.de/">SMART</A>)</LI>
+<LI><A HREF="gene3d.txt">gene3d domains</A>: Proteins with similar domains and features (<A HREF="http://cathwww.biochem.ucl.ac.uk:8080/Gene3D">Gene3D</A>)</LI>
+<LI><A HREF="prosite.txt">prosite domains</A>: Proteins with similar domains and features (<A HREF="http://ca.expasy.org/prosite/">Prosite</A>)</LI>
+<LI><A HREF="prints.txt">prints domains</A>: Proteins with similar domains and features (<A HREF="http://www.bioinf.manchester.ac.uk/dbbrowser/PRINTS/">PRINTS</A>)</LI>
+<LI><A HREF="msigdb.txt">MSigDB lists</A>: "Genes sets for pathways, factor/miRNA target predictions, expression patterns, etc." (<A HREF="http://www.broadinstitute.org/gsea/msigdb/index.jsp">MSigDB</A>)</LI>
+<LI><A HREF="biocyc.txt">BIOCYC pathways</A>: Groups of proteins in the same pathways (<A HREF="http://biocyc.org/">BIOCYC</A>)</LI>
+<LI><A HREF="cosmic.txt">COSMIC cancer mutations</A>: Genes mutated in similar cancers (<A HREF="http://cancer.sanger.ac.uk/cancergenome/projects/cosmic/">COSMIC</A>)</LI>
+<LI><A HREF="gwas.txt">GWAS genes</A>: Genes mutated in similar diseases (<A HREF="http://www.genome.gov/26525384">GWAS Catalog</A>)</LI>
+<LI><A HREF="lipidmaps.txt">Lipid Maps pathways</A>: Groups of proteins in the same lipid pathways (<A HREF="http://www.ncbi.nlm.nih.gov/biosystems/">Lipid Maps/Biosystems</A>)</LI>
+<LI><A HREF="pathwayInteractionDB.txt">Pathway Interaction DB</A>: Groups of proteins in the same pathways (<A HREF="http://pid.nci.nih.gov/">Pathway Interaction Database</A>)</LI>
+<LI><A HREF="reactome.txt">REACTOME pathways</A>: Groups of proteins in the same pathways (<A HREF="http://www.reactome.org/PathwayBrowser/">REACTOME</A>)</LI>
+<LI><A HREF="smpdb.txt">SMPDB pathways</A>: Groups of proteins in the same pathways (<A HREF="http://www.smpdb.ca/">SMPDB</A>)</LI>
+<LI><A HREF="wikipathways.txt">WikiPathways</A>: Groups of proteins in the same pathways (<A HREF="http://www.wikipathways.org/index.php/Special:BrowsePathwaysPage">Wikipathways</A>)</LI>
+</UL>
+<H2>Enriched Categories</H2>
+<TABLE border="1" cellpading="0" cellspacing="0">
+<TR><TH>P-value</TH><TD>ln(P)</TD><TD>Term</TD><TD>GO Tree</TD><TD>GO ID</TD><TD># of Genes in Term</TD><TD># of Target Genes in Term</TD><TD># of Total Genes</TD><TD># of Target Genes</TD><TD>Common Genes</TD></TR>
+<TR><TD>4.091e-05</TD><TD>-10.10</TD><TD>choline kinase activity</TD><TD>molecular function</TD><TD>GO:0004103</TD><TD>6</TD><TD>2</TD><TD>9362</TD><TD>16</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>1.116e-04</TD><TD>-9.10</TD><TD>CDP-choline pathway</TD><TD>biological process</TD><TD>GO:0006657</TD><TD>10</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>1.117e-04</TD><TD>-9.10</TD><TD>Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE</TD><TD>KEGG pathways</TD><TD>M00092</TD><TD>8</TD><TD>2</TD><TD>2735</TD><TD>6</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>1.117e-04</TD><TD>-9.10</TD><TD>Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE</TD><TD>KEGG pathways</TD><TD>cel_M00092</TD><TD>8</TD><TD>2</TD><TD>2735</TD><TD>6</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>1.930e-04</TD><TD>-8.55</TD><TD>phosphatidylcholine biosynthetic process</TD><TD>biological process</TD><TD>GO:0006656</TD><TD>13</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>2.249e-04</TD><TD>-8.40</TD><TD>phosphatidylcholine metabolic process</TD><TD>biological process</TD><TD>GO:0046470</TD><TD>14</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>3.256e-04</TD><TD>-8.03</TD><TD>Synthesis of PE</TD><TD>REACTOME pathways</TD><TD>R-CEL-1483213</TD><TD>13</TD><TD>2</TD><TD>3154</TD><TD>7</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>5.590e-04</TD><TD>-7.49</TD><TD>GSE40666_WT_VS_STAT1_KO_CD8_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE40666_WT_VS_STAT1_KO_CD8_TCELL_UP</TD><TD>27</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9,ucp-4</TD></TR>
+<TR><TD>6.017e-04</TD><TD>-7.42</TD><TD>GSE3982_MAC_VS_NKCELL_DN</TD><TD>MSigDB lists</TD><TD>GSE3982_MAC_VS_NKCELL_DN</TD><TD>28</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9,dbt-1</TD></TR>
+<TR><TD>7.877e-04</TD><TD>-7.15</TD><TD>GSE360_L_DONOVANI_VS_M_TUBERCULOSIS_DC_DN</TD><TD>MSigDB lists</TD><TD>GSE360_L_DONOVANI_VS_M_TUBERCULOSIS_DC_DN</TD><TD>32</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1,bbs-9</TD></TR>
+<TR><TD>8.692e-04</TD><TD>-7.05</TD><TD>Synthesis of PC</TD><TD>REACTOME pathways</TD><TD>R-CEL-1483191</TD><TD>21</TD><TD>2</TD><TD>3154</TD><TD>7</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>9.433e-04</TD><TD>-6.97</TD><TD>GSE5455_HEALTHY_VS_TUMOR_BEARING_MOUSE_SPLEEN_MONOCYTE_24H_INCUBATION_UP</TD><TD>MSigDB lists</TD><TD>GSE5455_HEALTHY_VS_TUMOR_BEARING_MOUSE_SPLEEN_MONOCYTE_24H_INCUBATION_UP</TD><TD>35</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9,ucp-4</TD></TR>
+<TR><TD>1.270e-03</TD><TD>-6.67</TD><TD>F41C6.6 (Uncharacterized protein)</TD><TD>protein interactions</TD><TD>185600</TD><TD>1</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>1.425e-03</TD><TD>-6.55</TD><TD>GSE8921_UNSTIM_VS_TLR1_2_STIM_MONOCYTE_6H_UP</TD><TD>MSigDB lists</TD><TD>GSE8921_UNSTIM_VS_TLR1_2_STIM_MONOCYTE_6H_UP</TD><TD>43</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9,ucp-4</TD></TR>
+<TR><TD>1.465e-03</TD><TD>-6.53</TD><TD>U7 snRNP</TD><TD>cellular component</TD><TD>GO:0005683</TD><TD>1</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>1.631e-03</TD><TD>-6.42</TD><TD>GSE5589_WT_VS_IL10_KO_LPS_STIM_MACROPHAGE_180MIN_UP</TD><TD>MSigDB lists</TD><TD>GSE5589_WT_VS_IL10_KO_LPS_STIM_MACROPHAGE_180MIN_UP</TD><TD>46</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4,dbt-1</TD></TR>
+<TR><TD>1.636e-03</TD><TD>-6.42</TD><TD>transposition</TD><TD>biological process</TD><TD>GO:0032196</TD><TD>1</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>T21E8.5</TD></TR>
+<TR><TD>1.636e-03</TD><TD>-6.42</TD><TD>transposition, DNA-mediated</TD><TD>biological process</TD><TD>GO:0006313</TD><TD>1</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>T21E8.5</TD></TR>
+<TR><TD>1.649e-03</TD><TD>-6.41</TD><TD>TMEM107</TD><TD>pfam domains</TD><TD>PF14995</TD><TD>1</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>1.649e-03</TD><TD>-6.41</TD><TD>PHTB1_C</TD><TD>pfam domains</TD><TD>PF14728</TD><TD>1</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.649e-03</TD><TD>-6.41</TD><TD>PHTB1_N</TD><TD>pfam domains</TD><TD>PF14727</TD><TD>1</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.649e-03</TD><TD>-6.41</TD><TD>Myb_DNA-bind_7</TD><TD>pfam domains</TD><TD>PF15963</TD><TD>1</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.649e-03</TD><TD>-6.41</TD><TD>Glyco_transf_25</TD><TD>pfam domains</TD><TD>PF01755</TD><TD>1</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>D2045.9</TD></TR>
+<TR><TD>1.649e-03</TD><TD>-6.41</TD><TD>Y2_Tnp</TD><TD>pfam domains</TD><TD>PF04986</TD><TD>1</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>T21E8.5</TD></TR>
+<TR><TD>1.658e-03</TD><TD>-6.40</TD><TD>cilium</TD><TD>cellular component</TD><TD>GO:0005929</TD><TD>165</TD><TD>3</TD><TD>11604</TD><TD>17</TD>
+<TD>bbs-9,tmem-107,dbt-1</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>Glyco_trans_25</TD><TD>interpro domains</TD><TD>IPR002654</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>D2045.9</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>PTHB1</TD><TD>interpro domains</TD><TD>IPR026511</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>Lsm11</TD><TD>interpro domains</TD><TD>IPR039267</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>PHTB1_C_dom</TD><TD>interpro domains</TD><TD>IPR028074</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>PHTB1_N_dom</TD><TD>interpro domains</TD><TD>IPR028073</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>TMEM107</TD><TD>interpro domains</TD><TD>IPR029248</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>Transposase_32</TD><TD>interpro domains</TD><TD>IPR007069</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>T21E8.5</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>Heat_shock_protein_90_CS</TD><TD>interpro domains</TD><TD>IPR019805</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.691e-03</TD><TD>-6.38</TD><TD>TFIIIB_B''_Myb</TD><TD>interpro domains</TD><TD>IPR039467</TD><TD>1</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.708e-03</TD><TD>-6.37</TD><TD>HSP90</TD><TD>prosite domains</TD><TD>PS00298</TD><TD>1</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.709e-03</TD><TD>-6.37</TD><TD>U7 snRNA binding</TD><TD>molecular function</TD><TD>GO:0071209</TD><TD>1</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>1.709e-03</TD><TD>-6.37</TD><TD>RNA polymerase III general transcription initiation factor binding</TD><TD>molecular function</TD><TD>GO:0001025</TD><TD>1</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.709e-03</TD><TD>-6.37</TD><TD>TFIIIC-class transcription factor complex binding</TD><TD>molecular function</TD><TD>GO:0001156</TD><TD>1</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.709e-03</TD><TD>-6.37</TD><TD>dihydrolipoyllysine-residue (2-methylpropanoyl)transferase activity</TD><TD>molecular function</TD><TD>GO:0043754</TD><TD>1</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.709e-03</TD><TD>-6.37</TD><TD>lipoic acid binding</TD><TD>molecular function</TD><TD>GO:0031405</TD><TD>1</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.709e-03</TD><TD>-6.37</TD><TD>transposase activity</TD><TD>molecular function</TD><TD>GO:0004803</TD><TD>1</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>T21E8.5</TD></TR>
+<TR><TD>2.219e-03</TD><TD>-6.11</TD><TD>The fatty acid cycling model</TD><TD>REACTOME pathways</TD><TD>R-CEL-167826</TD><TD>1</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>2.219e-03</TD><TD>-6.11</TD><TD>Mitochondrial Uncoupling Proteins</TD><TD>REACTOME pathways</TD><TD>R-CEL-166187</TD><TD>1</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>2.219e-03</TD><TD>-6.11</TD><TD>The proton buffering model</TD><TD>REACTOME pathways</TD><TD>R-CEL-167827</TD><TD>1</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>2.461e-03</TD><TD>-6.01</TD><TD>lipid biosynthetic process</TD><TD>biological process</TD><TD>GO:0008610</TD><TD>171</TD><TD>3</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-1,ckb-2,dbt-1</TD></TR>
+<TR><TD>2.499e-03</TD><TD>-5.99</TD><TD>GSE19941_IL10_KO_VS_IL10_KO_AND_NFKBP50_KO_LPS_AND_IL10_STIM_MACROPHAGE_DN</TD><TD>MSigDB lists</TD><TD>GSE19941_IL10_KO_VS_IL10_KO_AND_NFKBP50_KO_LPS_AND_IL10_STIM_MACROPHAGE_DN</TD><TD>57</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1,bbs-9</TD></TR>
+<TR><TD>2.538e-03</TD><TD>-5.98</TD><TD>F22H10.3 (Uncharacterized protein)</TD><TD>protein interactions</TD><TD>184873</TD><TD>2</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.538e-03</TD><TD>-5.98</TD><TD>his-4 (Histone H2B 2)</TD><TD>protein interactions</TD><TD>180072</TD><TD>2</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.574e-03</TD><TD>-5.96</TD><TD>HEATSHOCK90</TD><TD>prints domains</TD><TD>PR00775</TD><TD>3</TD><TD>1</TD><TD>2330</TD><TD>2</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.586e-03</TD><TD>-5.96</TD><TD>GSE36826_NORMAL_VS_STAPH_AUREUS_INF_IL1R_KO_SKIN_DN</TD><TD>MSigDB lists</TD><TD>GSE36826_NORMAL_VS_STAPH_AUREUS_INF_IL1R_KO_SKIN_DN</TD><TD>58</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1,enpl-1</TD></TR>
+<TR><TD>2.766e-03</TD><TD>-5.89</TD><TD>GSE17721_PAM3CSK4_VS_GADIQUIMOD_1H_BMDC_DN</TD><TD>MSigDB lists</TD><TD>GSE17721_PAM3CSK4_VS_GADIQUIMOD_1H_BMDC_DN</TD><TD>60</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1,enpl-1</TD></TR>
+<TR><TD>2.840e-03</TD><TD>-5.86</TD><TD>GO_CENTRIOLAR_SATELLITE</TD><TD>MSigDB lists</TD><TD>GO_CENTRIOLAR_SATELLITE</TD><TD>2</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>2.840e-03</TD><TD>-5.86</TD><TD>GO_SEQUESTERING_OF_METAL_ION</TD><TD>MSigDB lists</TD><TD>GO_SEQUESTERING_OF_METAL_ION</TD><TD>2</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.858e-03</TD><TD>-5.86</TD><TD>GSE23398_WT_VS_IL2_KO_CD4_TCELL_SCURFY_MOUSE_DN</TD><TD>MSigDB lists</TD><TD>GSE23398_WT_VS_IL2_KO_CD4_TCELL_SCURFY_MOUSE_DN</TD><TD>61</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1,bbs-9</TD></TR>
+<TR><TD>2.928e-03</TD><TD>-5.83</TD><TD>MKS complex</TD><TD>cellular component</TD><TD>GO:0036038</TD><TD>2</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>3.270e-03</TD><TD>-5.72</TD><TD>positive regulation of fatty acid biosynthetic process</TD><TD>biological process</TD><TD>GO:0045723</TD><TD>2</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.291e-03</TD><TD>-5.72</TD><TD>heterocyclic compound binding</TD><TD>molecular function</TD><TD>GO:1901363</TD><TD>3052</TD><TD>11</TD><TD>9362</TD><TD>16</TD>
+<TD>C56G2.3,enpl-1,B0261.1,dbt-1,nhr-172,C49H3.4,tbx-39,T21E8.5,wee-1.1,ckb-2,ckb-1</TD></TR>
+<TR><TD>3.296e-03</TD><TD>-5.72</TD><TD>E3_binding</TD><TD>pfam domains</TD><TD>PF02817</TD><TD>2</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.380e-03</TD><TD>-5.69</TD><TD>PSBD</TD><TD>interpro domains</TD><TD>IPR004167</TD><TD>2</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.398e-03</TD><TD>-5.68</TD><TD>organic cyclic compound binding</TD><TD>molecular function</TD><TD>GO:0097159</TD><TD>3063</TD><TD>11</TD><TD>9362</TD><TD>16</TD>
+<TD>T21E8.5,wee-1.1,ckb-1,ckb-2,enpl-1,B0261.1,C56G2.3,C49H3.4,nhr-172,dbt-1,tbx-39</TD></TR>
+<TR><TD>3.406e-03</TD><TD>-5.68</TD><TD>ammonium ion metabolic process</TD><TD>biological process</TD><TD>GO:0097164</TD><TD>54</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>3.414e-03</TD><TD>-5.68</TD><TD>PSBD</TD><TD>prosite domains</TD><TD>PS51826</TD><TD>2</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.805e-03</TD><TD>-5.57</TD><TD>Y44F5A.1 (hypothetical protein)</TD><TD>protein interactions</TD><TD>175547</TD><TD>3</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.258e-03</TD><TD>-5.46</TD><TD>REACTOME_TRAFFICKING_AND_PROCESSING_OF_ENDOSOMAL_TLR</TD><TD>MSigDB lists</TD><TD>REACTOME_TRAFFICKING_AND_PROCESSING_OF_ENDOSOMAL_TLR</TD><TD>3</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.258e-03</TD><TD>-5.46</TD><TD>MODULE_311</TD><TD>MSigDB lists</TD><TD>MODULE_311</TD><TD>3</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.258e-03</TD><TD>-5.46</TD><TD>GO_PERICENTRIOLAR_MATERIAL</TD><TD>MSigDB lists</TD><TD>GO_PERICENTRIOLAR_MATERIAL</TD><TD>3</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.300e-03</TD><TD>-5.45</TD><TD>GSE17721_LPS_VS_GARDIQUIMOD_16H_BMDC_DN</TD><TD>MSigDB lists</TD><TD>GSE17721_LPS_VS_GARDIQUIMOD_16H_BMDC_DN</TD><TD>75</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1,dbt-1</TD></TR>
+<TR><TD>4.683e-03</TD><TD>-5.36</TD><TD>cell projection part</TD><TD>cellular component</TD><TD>GO:0044463</TD><TD>238</TD><TD>3</TD><TD>11604</TD><TD>17</TD>
+<TD>dbt-1,tmem-107,bbs-9</TD></TR>
+<TR><TD>4.683e-03</TD><TD>-5.36</TD><TD>plasma membrane bounded cell projection part</TD><TD>cellular component</TD><TD>GO:0120038</TD><TD>238</TD><TD>3</TD><TD>11604</TD><TD>17</TD>
+<TD>bbs-9,tmem-107,dbt-1</TD></TR>
+<TR><TD>4.899e-03</TD><TD>-5.32</TD><TD>glycerophospholipid biosynthetic process</TD><TD>biological process</TD><TD>GO:0046474</TD><TD>65</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>4.902e-03</TD><TD>-5.32</TD><TD>mRNA 3'-end processing by stem-loop binding and cleavage</TD><TD>biological process</TD><TD>GO:0006398</TD><TD>3</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>4.902e-03</TD><TD>-5.32</TD><TD>response to cold</TD><TD>biological process</TD><TD>GO:0009409</TD><TD>3</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.940e-03</TD><TD>-5.31</TD><TD>HSP90</TD><TD>pfam domains</TD><TD>PF00183</TD><TD>3</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>tRNA_m1G_MeTrfase_euk</TD><TD>interpro domains</TD><TD>IPR007356</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>HSP90_C</TD><TD>interpro domains</TD><TD>IPR037196</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>E3-bd_dom_sf</TD><TD>interpro domains</TD><TD>IPR036625</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>2-oxoA_DH_lipoyl-BS</TD><TD>interpro domains</TD><TD>IPR003016</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>Hsp90_N</TD><TD>interpro domains</TD><TD>IPR020575</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>MT_TRM10-typ_sf</TD><TD>interpro domains</TD><TD>IPR038459</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>5.066e-03</TD><TD>-5.29</TD><TD>Hsp90_fam</TD><TD>interpro domains</TD><TD>IPR001404</TD><TD>3</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.117e-03</TD><TD>-5.28</TD><TD>LIPOYL</TD><TD>prosite domains</TD><TD>PS00189</TD><TD>3</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>5.498e-03</TD><TD>-5.20</TD><TD>-</TD><TD>gene3d domains</TD><TD>4.10.320.10</TD><TD>3</TD><TD>1</TD><TD>5448</TD><TD>10</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>5.498e-03</TD><TD>-5.20</TD><TD>-</TD><TD>gene3d domains</TD><TD>1.20.120.790</TD><TD>3</TD><TD>1</TD><TD>5448</TD><TD>10</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.498e-03</TD><TD>-5.20</TD><TD>-</TD><TD>gene3d domains</TD><TD>3.40.1280.30</TD><TD>3</TD><TD>1</TD><TD>5448</TD><TD>10</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>5.656e-03</TD><TD>-5.17</TD><TD>Glycerophospholipid metabolism</TD><TD>KEGG pathways</TD><TD>ko00564</TD><TD>55</TD><TD>2</TD><TD>2735</TD><TD>6</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>5.656e-03</TD><TD>-5.17</TD><TD>Glycerophospholipid metabolism</TD><TD>KEGG pathways</TD><TD>cel00564</TD><TD>55</TD><TD>2</TD><TD>2735</TD><TD>6</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>5.661e-03</TD><TD>-5.17</TD><TD>glycerolipid biosynthetic process</TD><TD>biological process</TD><TD>GO:0045017</TD><TD>70</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>5.662e-03</TD><TD>-5.17</TD><TD>organelle</TD><TD>cellular component</TD><TD>GO:0043226</TD><TD>5015</TD><TD>13</TD><TD>11604</TD><TD>17</TD>
+<TD>nhr-172,C49H3.4,tmem-107,ugt-11,bbs-9,Y32H12A.8,enpl-1,dbt-1,wee-1.1,B0261.1,F54A3.2,tbx-39,C56G2.3</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>STANELLE_E2F1_TARGETS</TD><TD>MSigDB lists</TD><TD>STANELLE_E2F1_TARGETS</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>OUELLET_CULTURED_OVARIAN_CANCER_INVASIVE_VS_LMP_DN</TD><TD>MSigDB lists</TD><TD>OUELLET_CULTURED_OVARIAN_CANCER_INVASIVE_VS_LMP_DN</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>BASSO_CD40_SIGNALING_UP</TD><TD>MSigDB lists</TD><TD>BASSO_CD40_SIGNALING_UP</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>GO_ENDOCYTIC_VESICLE_LUMEN</TD><TD>MSigDB lists</TD><TD>GO_ENDOCYTIC_VESICLE_LUMEN</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>REACTOME_ACTIVATION_OF_CHAPERONE_GENES_BY_ATF6_ALPHA</TD><TD>MSigDB lists</TD><TD>REACTOME_ACTIVATION_OF_CHAPERONE_GENES_BY_ATF6_ALPHA</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>GO_CELLULAR_RESPONSE_TO_ATP</TD><TD>MSigDB lists</TD><TD>GO_CELLULAR_RESPONSE_TO_ATP</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.674e-03</TD><TD>-5.17</TD><TD>MODULE_573</TD><TD>MSigDB lists</TD><TD>MODULE_573</TD><TD>4</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>5.820e-03</TD><TD>-5.15</TD><TD>cilium assembly</TD><TD>biological process</TD><TD>GO:0060271</TD><TD>71</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>bbs-9,tmem-107</TD></TR>
+<TR><TD>5.848e-03</TD><TD>-5.14</TD><TD>transcription factor TFIIIB complex</TD><TD>cellular component</TD><TD>GO:0000126</TD><TD>4</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>6.263e-03</TD><TD>-5.07</TD><TD>ciliary part</TD><TD>cellular component</TD><TD>GO:0044441</TD><TD>82</TD><TD>2</TD><TD>11604</TD><TD>17</TD>
+<TD>bbs-9,tmem-107</TD></TR>
+<TR><TD>6.336e-03</TD><TD>-5.06</TD><TD>gfat-1 (Glutamine-Fructose 6-phosphate AminoTransferase homolog)</TD><TD>protein interactions</TD><TD>174778</TD><TD>5</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>6.336e-03</TD><TD>-5.06</TD><TD>pyk-1 (Pyruvate kinase)</TD><TD>protein interactions</TD><TD>172744</TD><TD>5</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>6.475e-03</TD><TD>-5.04</TD><TD>plasma membrane bounded cell projection assembly</TD><TD>biological process</TD><TD>GO:0120031</TD><TD>75</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>tmem-107,bbs-9</TD></TR>
+<TR><TD>6.531e-03</TD><TD>-5.03</TD><TD>regulation of fatty acid biosynthetic process</TD><TD>biological process</TD><TD>GO:0042304</TD><TD>4</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>6.582e-03</TD><TD>-5.02</TD><TD>2-oxoacid_dh</TD><TD>pfam domains</TD><TD>PF00198</TD><TD>4</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>6.643e-03</TD><TD>-5.01</TD><TD>cilium organization</TD><TD>biological process</TD><TD>GO:0044782</TD><TD>76</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>tmem-107,bbs-9</TD></TR>
+<TR><TD>6.749e-03</TD><TD>-5.00</TD><TD>MT_TRM10-typ</TD><TD>interpro domains</TD><TD>IPR028564</TD><TD>4</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>6.749e-03</TD><TD>-5.00</TD><TD>2-oxoacid_DH_actylTfrase</TD><TD>interpro domains</TD><TD>IPR001078</TD><TD>4</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>6.818e-03</TD><TD>-4.99</TD><TD>SAM_MT_TRM10</TD><TD>prosite domains</TD><TD>PS51675</TD><TD>4</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>6.820e-03</TD><TD>-4.99</TD><TD>tRNA (guanine-N1-)-methyltransferase activity</TD><TD>molecular function</TD><TD>GO:0009019</TD><TD>4</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>7.088e-03</TD><TD>-4.95</TD><TD>MORI_EMU_MYC_LYMPHOMA_BY_ONSET_TIME_DN</TD><TD>MSigDB lists</TD><TD>MORI_EMU_MYC_LYMPHOMA_BY_ONSET_TIME_DN</TD><TD>5</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>7.088e-03</TD><TD>-4.95</TD><TD>REACTOME_ACTIVATION_OF_CHAPERONES_BY_ATF6_ALPHA</TD><TD>MSigDB lists</TD><TD>REACTOME_ACTIVATION_OF_CHAPERONES_BY_ATF6_ALPHA</TD><TD>5</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>7.268e-03</TD><TD>-4.92</TD><TD>ZHANG_TLX_TARGETS_60HR_DN</TD><TD>MSigDB lists</TD><TD>ZHANG_TLX_TARGETS_60HR_DN</TD><TD>98</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1,enpl-1</TD></TR>
+<TR><TD>7.517e-03</TD><TD>-4.89</TD><TD>phospholipid biosynthetic process</TD><TD>biological process</TD><TD>GO:0008654</TD><TD>81</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>8.054e-03</TD><TD>-4.82</TD><TD>HATPase_c</TD><TD>smart domains</TD><TD>SM00387</TD><TD>4</TD><TD>1</TD><TD>5448</TD><TD>11</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>8.065e-03</TD><TD>-4.82</TD><TD>cell projection assembly</TD><TD>biological process</TD><TD>GO:0030031</TD><TD>84</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>tmem-107,bbs-9</TD></TR>
+<TR><TD>8.157e-03</TD><TD>-4.81</TD><TD>positive regulation of lipid biosynthetic process</TD><TD>biological process</TD><TD>GO:0046889</TD><TD>5</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>8.157e-03</TD><TD>-4.81</TD><TD>histone mRNA metabolic process</TD><TD>biological process</TD><TD>GO:0008334</TD><TD>5</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>8.157e-03</TD><TD>-4.81</TD><TD>mitochondrial tRNA processing</TD><TD>biological process</TD><TD>GO:0090646</TD><TD>5</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>8.157e-03</TD><TD>-4.81</TD><TD>establishment or maintenance of microtubule cytoskeleton polarity</TD><TD>biological process</TD><TD>GO:0030951</TD><TD>5</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>8.220e-03</TD><TD>-4.80</TD><TD>CLASP_N</TD><TD>pfam domains</TD><TD>PF12348</TD><TD>5</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>8.220e-03</TD><TD>-4.80</TD><TD>HATPase_c</TD><TD>pfam domains</TD><TD>PF02518</TD><TD>5</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>8.429e-03</TD><TD>-4.78</TD><TD>CLASP_N_dom</TD><TD>interpro domains</TD><TD>IPR024395</TD><TD>5</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>8.501e-03</TD><TD>-4.77</TD><TD>GO_LOW_DENSITY_LIPOPROTEIN_PARTICLE_RECEPTOR_BINDING</TD><TD>MSigDB lists</TD><TD>GO_LOW_DENSITY_LIPOPROTEIN_PARTICLE_RECEPTOR_BINDING</TD><TD>6</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>8.501e-03</TD><TD>-4.77</TD><TD>KEGG_NOD_LIKE_RECEPTOR_SIGNALING_PATHWAY</TD><TD>MSigDB lists</TD><TD>KEGG_NOD_LIKE_RECEPTOR_SIGNALING_PATHWAY</TD><TD>6</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>8.501e-03</TD><TD>-4.77</TD><TD>GO_LIPOPROTEIN_PARTICLE_RECEPTOR_BINDING</TD><TD>MSigDB lists</TD><TD>GO_LIPOPROTEIN_PARTICLE_RECEPTOR_BINDING</TD><TD>6</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>8.501e-03</TD><TD>-4.77</TD><TD>GO_RESPONSE_TO_ATP</TD><TD>MSigDB lists</TD><TD>GO_RESPONSE_TO_ATP</TD><TD>6</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>8.861e-03</TD><TD>-4.73</TD><TD>ubql-1 (Ubiquilin)</TD><TD>protein interactions</TD><TD>172434</TD><TD>7</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>9.781e-03</TD><TD>-4.63</TD><TD>RNA polymerase III preinitiation complex assembly</TD><TD>biological process</TD><TD>GO:0070898</TD><TD>6</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>9.912e-03</TD><TD>-4.61</TD><TD>GO_PROTEIN_FOLDING_IN_ENDOPLASMIC_RETICULUM</TD><TD>MSigDB lists</TD><TD>GO_PROTEIN_FOLDING_IN_ENDOPLASMIC_RETICULUM</TD><TD>7</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>9.912e-03</TD><TD>-4.61</TD><TD>GO_CILIARY_TRANSITION_ZONE</TD><TD>MSigDB lists</TD><TD>GO_CILIARY_TRANSITION_ZONE</TD><TD>7</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>9.912e-03</TD><TD>-4.61</TD><TD>SCIBETTA_KDM5B_TARGETS_UP</TD><TD>MSigDB lists</TD><TD>SCIBETTA_KDM5B_TARGETS_UP</TD><TD>7</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.011e-02</TD><TD>-4.59</TD><TD>HATPase_C</TD><TD>interpro domains</TD><TD>IPR003594</TD><TD>6</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.011e-02</TD><TD>-4.59</TD><TD>CAT-like_dom_sf</TD><TD>interpro domains</TD><TD>IPR023213</TD><TD>6</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.021e-02</TD><TD>-4.58</TD><TD>RNA polymerase III transcription factor complex</TD><TD>cellular component</TD><TD>GO:0090576</TD><TD>7</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.021e-02</TD><TD>-4.58</TD><TD>RNA polymerase III general transcription initiation factor activity</TD><TD>molecular function</TD><TD>GO:0000995</TD><TD>6</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.097e-02</TD><TD>-4.51</TD><TD>-</TD><TD>gene3d domains</TD><TD>3.30.559.10</TD><TD>6</TD><TD>1</TD><TD>5448</TD><TD>10</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.132e-02</TD><TD>-4.48</TD><TD>TAGGTCA_MIR192_MIR215</TD><TD>MSigDB lists</TD><TD>TAGGTCA_MIR192_MIR215</TD><TD>8</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.132e-02</TD><TD>-4.48</TD><TD>GO_ACTIN_FILAMENT_BUNDLE_ORGANIZATION</TD><TD>MSigDB lists</TD><TD>GO_ACTIN_FILAMENT_BUNDLE_ORGANIZATION</TD><TD>8</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.132e-02</TD><TD>-4.48</TD><TD>chr7p14</TD><TD>MSigDB lists</TD><TD>chr7p14</TD><TD>8</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.132e-02</TD><TD>-4.48</TD><TD>GO_TRICARBOXYLIC_ACID_CYCLE_ENZYME_COMPLEX</TD><TD>MSigDB lists</TD><TD>GO_TRICARBOXYLIC_ACID_CYCLE_ENZYME_COMPLEX</TD><TD>8</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.132e-02</TD><TD>-4.48</TD><TD>chr6p12</TD><TD>MSigDB lists</TD><TD>chr6p12</TD><TD>8</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>1.132e-02</TD><TD>-4.48</TD><TD>GOBERT_CORE_OLIGODENDROCYTE_DIFFERENTIATION</TD><TD>MSigDB lists</TD><TD>GOBERT_CORE_OLIGODENDROCYTE_DIFFERENTIATION</TD><TD>8</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>1.150e-02</TD><TD>-4.47</TD><TD>glycerophospholipid metabolic process</TD><TD>biological process</TD><TD>GO:0006650</TD><TD>101</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>1.166e-02</TD><TD>-4.45</TD><TD>microtubule plus-end</TD><TD>cellular component</TD><TD>GO:0035371</TD><TD>8</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.166e-02</TD><TD>-4.45</TD><TD>BBSome</TD><TD>cellular component</TD><TD>GO:0034464</TD><TD>8</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.191e-02</TD><TD>-4.43</TD><TD>microtubule plus-end binding</TD><TD>molecular function</TD><TD>GO:0051010</TD><TD>7</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.191e-02</TD><TD>-4.43</TD><TD>general transcription initiation factor activity</TD><TD>molecular function</TD><TD>GO:0140223</TD><TD>7</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.264e-02</TD><TD>-4.37</TD><TD>gcl-1 (GCL (Drosophila Germ Cell-Less) homolog)</TD><TD>protein interactions</TD><TD>190457</TD><TD>10</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>1.302e-02</TD><TD>-4.34</TD><TD>establishment or maintenance of cytoskeleton polarity</TD><TD>biological process</TD><TD>GO:0030952</TD><TD>8</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.302e-02</TD><TD>-4.34</TD><TD>mitochondrial RNA processing</TD><TD>biological process</TD><TD>GO:0000963</TD><TD>8</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>1.312e-02</TD><TD>-4.33</TD><TD>Biotin_lipoyl</TD><TD>pfam domains</TD><TD>PF00364</TD><TD>8</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.325e-02</TD><TD>-4.32</TD><TD>G2/M DNA replication checkpoint</TD><TD>REACTOME pathways</TD><TD>R-CEL-69478</TD><TD>6</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>wee-1.1</TD></TR>
+<TR><TD>1.345e-02</TD><TD>-4.31</TD><TD>TOG</TD><TD>interpro domains</TD><TD>IPR034085</TD><TD>8</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.414e-02</TD><TD>-4.26</TD><TD>PID_IL6_7_PATHWAY</TD><TD>MSigDB lists</TD><TD>PID_IL6_7_PATHWAY</TD><TD>10</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.414e-02</TD><TD>-4.26</TD><TD>MORF_ITGA2</TD><TD>MSigDB lists</TD><TD>MORF_ITGA2</TD><TD>10</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.414e-02</TD><TD>-4.26</TD><TD>NATSUME_RESPONSE_TO_INTERFERON_BETA_UP</TD><TD>MSigDB lists</TD><TD>NATSUME_RESPONSE_TO_INTERFERON_BETA_UP</TD><TD>10</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.454e-02</TD><TD>-4.23</TD><TD>TBOX</TD><TD>prints domains</TD><TD>PR00937</TD><TD>17</TD><TD>1</TD><TD>2330</TD><TD>2</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>1.456e-02</TD><TD>-4.23</TD><TD>microtubule end</TD><TD>cellular component</TD><TD>GO:1990752</TD><TD>10</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.460e-02</TD><TD>-4.23</TD><TD>-</TD><TD>gene3d domains</TD><TD>3.30.565.10</TD><TD>8</TD><TD>1</TD><TD>5448</TD><TD>10</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.464e-02</TD><TD>-4.22</TD><TD>transcription initiation from RNA polymerase III promoter</TD><TD>biological process</TD><TD>GO:0006384</TD><TD>9</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>1.464e-02</TD><TD>-4.22</TD><TD>positive regulation of fatty acid metabolic process</TD><TD>biological process</TD><TD>GO:0045923</TD><TD>9</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.512e-02</TD><TD>-4.19</TD><TD>HATPase_C_sf</TD><TD>interpro domains</TD><TD>IPR036890</TD><TD>9</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.515e-02</TD><TD>-4.19</TD><TD>csn-4 (COP9 signalosome complex subunit 4)</TD><TD>protein interactions</TD><TD>176927</TD><TD>12</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>1.527e-02</TD><TD>-4.18</TD><TD>Other types of O-glycan biosynthesis</TD><TD>KEGG pathways</TD><TD>ko00514</TD><TD>7</TD><TD>1</TD><TD>2735</TD><TD>6</TD>
+<TD>D2045.9</TD></TR>
+<TR><TD>1.527e-02</TD><TD>-4.18</TD><TD>Other types of O-glycan biosynthesis</TD><TD>KEGG pathways</TD><TD>cel00514</TD><TD>7</TD><TD>1</TD><TD>2735</TD><TD>6</TD>
+<TD>D2045.9</TD></TR>
+<TR><TD>1.528e-02</TD><TD>-4.18</TD><TD>BIOTINYL_LIPOYL</TD><TD>prosite domains</TD><TD>PS50968</TD><TD>9</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>MORF_TTN</TD><TD>MSigDB lists</TD><TD>MORF_TTN</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>SHAFFER_IRF4_TARGETS_IN_PLASMA_CELL_VS_MATURE_B_LYMPHOCYTE</TD><TD>MSigDB lists</TD><TD>SHAFFER_IRF4_TARGETS_IN_PLASMA_CELL_VS_MATURE_B_LYMPHOCYTE</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>RASHI_RESPONSE_TO_IONIZING_RADIATION_4</TD><TD>MSigDB lists</TD><TD>RASHI_RESPONSE_TO_IONIZING_RADIATION_4</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>GO_RETROGRADE_PROTEIN_TRANSPORT_ER_TO_CYTOSOL</TD><TD>MSigDB lists</TD><TD>GO_RETROGRADE_PROTEIN_TRANSPORT_ER_TO_CYTOSOL</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>MODULE_208</TD><TD>MSigDB lists</TD><TD>MODULE_208</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>GO_ENDOPLASMIC_RETICULUM_CHAPERONE_COMPLEX</TD><TD>MSigDB lists</TD><TD>GO_ENDOPLASMIC_RETICULUM_CHAPERONE_COMPLEX</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>GO_MICROTUBULE_ORGANIZING_CENTER_PART</TD><TD>MSigDB lists</TD><TD>GO_MICROTUBULE_ORGANIZING_CENTER_PART</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.554e-02</TD><TD>-4.16</TD><TD>MODULE_373</TD><TD>MSigDB lists</TD><TD>MODULE_373</TD><TD>11</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.597e-02</TD><TD>-4.14</TD><TD>glycerolipid metabolic process</TD><TD>biological process</TD><TD>GO:0046486</TD><TD>120</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>1.605e-02</TD><TD>-4.13</TD><TD>TOG</TD><TD>smart domains</TD><TD>SM01349</TD><TD>8</TD><TD>1</TD><TD>5448</TD><TD>11</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.625e-02</TD><TD>-4.12</TD><TD>protein localization to ciliary transition zone</TD><TD>biological process</TD><TD>GO:1904491</TD><TD>10</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>1.625e-02</TD><TD>-4.12</TD><TD>centrosome duplication</TD><TD>biological process</TD><TD>GO:0051298</TD><TD>10</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.625e-02</TD><TD>-4.12</TD><TD>microtubule polymerization</TD><TD>biological process</TD><TD>GO:0046785</TD><TD>10</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>1.625e-02</TD><TD>-4.12</TD><TD>positive regulation of small molecule metabolic process</TD><TD>biological process</TD><TD>GO:0062013</TD><TD>10</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.641e-02</TD><TD>-4.11</TD><TD>unc-62 (Homeobox protein unc-62)</TD><TD>protein interactions</TD><TD>178845</TD><TD>13</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>1.665e-02</TD><TD>-4.10</TD><TD>cellular lipid metabolic process</TD><TD>biological process</TD><TD>GO:0044255</TD><TD>341</TD><TD>3</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-1,ckb-2,dbt-1</TD></TR>
+<TR><TD>1.679e-02</TD><TD>-4.09</TD><TD>Biotin_lipoyl</TD><TD>interpro domains</TD><TD>IPR000089</TD><TD>10</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.694e-02</TD><TD>-4.08</TD><TD>GO_ER_NUCLEUS_SIGNALING_PATHWAY</TD><TD>MSigDB lists</TD><TD>GO_ER_NUCLEUS_SIGNALING_PATHWAY</TD><TD>12</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.694e-02</TD><TD>-4.08</TD><TD>GO_TOLL_LIKE_RECEPTOR_SIGNALING_PATHWAY</TD><TD>MSigDB lists</TD><TD>GO_TOLL_LIKE_RECEPTOR_SIGNALING_PATHWAY</TD><TD>12</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.694e-02</TD><TD>-4.08</TD><TD>GO_ENDOPLASMIC_RETICULUM_TO_CYTOSOL_TRANSPORT</TD><TD>MSigDB lists</TD><TD>GO_ENDOPLASMIC_RETICULUM_TO_CYTOSOL_TRANSPORT</TD><TD>12</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.697e-02</TD><TD>-4.08</TD><TD>tRNA (guanine) methyltransferase activity</TD><TD>molecular function</TD><TD>GO:0016423</TD><TD>10</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>1.720e-02</TD><TD>-4.06</TD><TD>cellular component assembly</TD><TD>biological process</TD><TD>GO:0022607</TD><TD>639</TD><TD>4</TD><TD>9166</TD><TD>15</TD>
+<TD>bbs-9,tmem-107,B0261.1,F54A3.2</TD></TR>
+<TR><TD>1.746e-02</TD><TD>-4.05</TD><TD>microtubule organizing center</TD><TD>cellular component</TD><TD>GO:0005815</TD><TD>140</TD><TD>2</TD><TD>11604</TD><TD>17</TD>
+<TD>bbs-9,F54A3.2</TD></TR>
+<TR><TD>1.764e-02</TD><TD>-4.04</TD><TD>Collagen biosynthesis and modifying enzymes</TD><TD>REACTOME pathways</TD><TD>R-CEL-1650814</TD><TD>8</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>D2045.9</TD></TR>
+<TR><TD>1.779e-02</TD><TD>-4.03</TD><TD>organelle part</TD><TD>cellular component</TD><TD>GO:0044422</TD><TD>2518</TD><TD>8</TD><TD>11604</TD><TD>17</TD>
+<TD>C49H3.4,tmem-107,bbs-9,enpl-1,dbt-1,B0261.1,F54A3.2,C56G2.3</TD></TR>
+<TR><TD>1.784e-02</TD><TD>-4.03</TD><TD>intracellular organelle</TD><TD>cellular component</TD><TD>GO:0043229</TD><TD>4920</TD><TD>12</TD><TD>11604</TD><TD>17</TD>
+<TD>B0261.1,tbx-39,C56G2.3,F54A3.2,wee-1.1,dbt-1,bbs-9,enpl-1,Y32H12A.8,C49H3.4,ugt-11,nhr-172</TD></TR>
+<TR><TD>1.786e-02</TD><TD>-4.02</TD><TD>regulation of lipid biosynthetic process</TD><TD>biological process</TD><TD>GO:0046890</TD><TD>11</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.813e-02</TD><TD>-4.01</TD><TD>Glycerophospholipid biosynthesis</TD><TD>REACTOME pathways</TD><TD>R-CEL-1483206</TD><TD>98</TD><TD>2</TD><TD>3154</TD><TD>7</TD>
+<TD>ckb-1,ckb-2</TD></TR>
+<TR><TD>1.835e-02</TD><TD>-4.00</TD><TD>MODULE_171</TD><TD>MSigDB lists</TD><TD>MODULE_171</TD><TD>13</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>1.835e-02</TD><TD>-4.00</TD><TD>MORF_KDR</TD><TD>MSigDB lists</TD><TD>MORF_KDR</TD><TD>13</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.835e-02</TD><TD>-4.00</TD><TD>GO_PROTEIN_EXIT_FROM_ENDOPLASMIC_RETICULUM</TD><TD>MSigDB lists</TD><TD>GO_PROTEIN_EXIT_FROM_ENDOPLASMIC_RETICULUM</TD><TD>13</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.835e-02</TD><TD>-4.00</TD><TD>GO_PROTEIN_LOCALIZATION_TO_CILIUM</TD><TD>MSigDB lists</TD><TD>GO_PROTEIN_LOCALIZATION_TO_CILIUM</TD><TD>13</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.835e-02</TD><TD>-4.00</TD><TD>LIU_COMMON_CANCER_GENES</TD><TD>MSigDB lists</TD><TD>LIU_COMMON_CANCER_GENES</TD><TD>13</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.845e-02</TD><TD>-3.99</TD><TD>Single_hybrid_motif</TD><TD>interpro domains</TD><TD>IPR011053</TD><TD>11</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.865e-02</TD><TD>-3.98</TD><TD>fatty acid binding</TD><TD>molecular function</TD><TD>GO:0005504</TD><TD>11</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>1.947e-02</TD><TD>-3.94</TD><TD>dendrite development</TD><TD>biological process</TD><TD>GO:0016358</TD><TD>12</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>1.975e-02</TD><TD>-3.92</TD><TD>GO_REGULATION_OF_PHOSPHOPROTEIN_PHOSPHATASE_ACTIVITY</TD><TD>MSigDB lists</TD><TD>GO_REGULATION_OF_PHOSPHOPROTEIN_PHOSPHATASE_ACTIVITY</TD><TD>14</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.975e-02</TD><TD>-3.92</TD><TD>GO_VESICLE_LUMEN</TD><TD>MSigDB lists</TD><TD>GO_VESICLE_LUMEN</TD><TD>14</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>1.975e-02</TD><TD>-3.92</TD><TD>GSE13411_NAIVE_VS_MEMORY_BCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE13411_NAIVE_VS_MEMORY_BCELL_UP</TD><TD>14</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>1.982e-02</TD><TD>-3.92</TD><TD>Polo-like kinase mediated events</TD><TD>REACTOME pathways</TD><TD>R-CEL-156711</TD><TD>9</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>wee-1.1</TD></TR>
+<TR><TD>1.982e-02</TD><TD>-3.92</TD><TD>Collagen formation</TD><TD>REACTOME pathways</TD><TD>R-CEL-1474290</TD><TD>9</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>D2045.9</TD></TR>
+<TR><TD>2.012e-02</TD><TD>-3.91</TD><TD>HEAT_type_2</TD><TD>interpro domains</TD><TD>IPR021133</TD><TD>12</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>2.033e-02</TD><TD>-3.90</TD><TD>HEAT_REPEAT</TD><TD>prosite domains</TD><TD>PS50077</TD><TD>12</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>2.108e-02</TD><TD>-3.86</TD><TD>regulation of fatty acid metabolic process</TD><TD>biological process</TD><TD>GO:0019217</TD><TD>13</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.114e-02</TD><TD>-3.86</TD><TD>MODULE_249</TD><TD>MSigDB lists</TD><TD>MODULE_249</TD><TD>15</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.114e-02</TD><TD>-3.86</TD><TD>MODULE_355</TD><TD>MSigDB lists</TD><TD>MODULE_355</TD><TD>15</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.141e-02</TD><TD>-3.84</TD><TD>rad-26 (hypothetical protein)</TD><TD>protein interactions</TD><TD>177706</TD><TD>17</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.200e-02</TD><TD>-3.82</TD><TD>TBOX_2</TD><TD>prosite domains</TD><TD>PS01264</TD><TD>13</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>2.200e-02</TD><TD>-3.82</TD><TD>BBSome-mediated cargo-targeting to cilium</TD><TD>REACTOME pathways</TD><TD>R-CEL-5620922</TD><TD>10</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>2.201e-02</TD><TD>-3.82</TD><TD>monocarboxylic acid binding</TD><TD>molecular function</TD><TD>GO:0033293</TD><TD>13</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.217e-02</TD><TD>-3.81</TD><TD>binding</TD><TD>molecular function</TD><TD>GO:0005488</TD><TD>5713</TD><TD>14</TD><TD>9362</TD><TD>16</TD>
+<TD>T21E8.5,wee-1.1,ckb-1,ckb-2,gcl-1,F54A3.2,enpl-1,B0261.1,C56G2.3,hlh-16,C49H3.4,nhr-172,dbt-1,tbx-39</TD></TR>
+<TR><TD>2.254e-02</TD><TD>-3.79</TD><TD>chr2p13</TD><TD>MSigDB lists</TD><TD>chr2p13</TD><TD>16</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.254e-02</TD><TD>-3.79</TD><TD>MODULE_119</TD><TD>MSigDB lists</TD><TD>MODULE_119</TD><TD>16</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.254e-02</TD><TD>-3.79</TD><TD>GO_PATTERN_RECOGNITION_RECEPTOR_SIGNALING_PATHWAY</TD><TD>MSigDB lists</TD><TD>GO_PATTERN_RECOGNITION_RECEPTOR_SIGNALING_PATHWAY</TD><TD>16</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.254e-02</TD><TD>-3.79</TD><TD>MARCHINI_TRABECTEDIN_RESISTANCE_DN</TD><TD>MSigDB lists</TD><TD>MARCHINI_TRABECTEDIN_RESISTANCE_DN</TD><TD>16</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.268e-02</TD><TD>-3.79</TD><TD>mitochondrial RNA metabolic process</TD><TD>biological process</TD><TD>GO:0000959</TD><TD>14</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>2.268e-02</TD><TD>-3.79</TD><TD>positive regulation of lipid metabolic process</TD><TD>biological process</TD><TD>GO:0045834</TD><TD>14</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.368e-02</TD><TD>-3.74</TD><TD>snRNA binding</TD><TD>molecular function</TD><TD>GO:0017069</TD><TD>14</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>2.369e-02</TD><TD>-3.74</TD><TD>phospholipid metabolic process</TD><TD>biological process</TD><TD>GO:0006644</TD><TD>148</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>2.394e-02</TD><TD>-3.73</TD><TD>TCTGGAC_MIR198</TD><TD>MSigDB lists</TD><TD>TCTGGAC_MIR198</TD><TD>17</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>2.394e-02</TD><TD>-3.73</TD><TD>DE_YY1_TARGETS_DN</TD><TD>MSigDB lists</TD><TD>DE_YY1_TARGETS_DN</TD><TD>17</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.394e-02</TD><TD>-3.73</TD><TD>HALLMARK_SPERMATOGENESIS</TD><TD>MSigDB lists</TD><TD>HALLMARK_SPERMATOGENESIS</TD><TD>17</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.418e-02</TD><TD>-3.72</TD><TD>Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.</TD><TD>REACTOME pathways</TD><TD>R-CEL-163200</TD><TD>11</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>2.429e-02</TD><TD>-3.72</TD><TD>regulation of cellular ketone metabolic process</TD><TD>biological process</TD><TD>GO:0010565</TD><TD>15</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.533e-02</TD><TD>-3.68</TD><TD>GO_NUCLEOID</TD><TD>MSigDB lists</TD><TD>GO_NUCLEOID</TD><TD>18</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.533e-02</TD><TD>-3.68</TD><TD>MATZUK_SPERMATOZOA</TD><TD>MSigDB lists</TD><TD>MATZUK_SPERMATOZOA</TD><TD>18</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.533e-02</TD><TD>-3.68</TD><TD>YAO_TEMPORAL_RESPONSE_TO_PROGESTERONE_CLUSTER_0</TD><TD>MSigDB lists</TD><TD>YAO_TEMPORAL_RESPONSE_TO_PROGESTERONE_CLUSTER_0</TD><TD>18</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>2.533e-02</TD><TD>-3.68</TD><TD>REACTOME_BRANCHED_CHAIN_AMINO_ACID_CATABOLISM</TD><TD>MSigDB lists</TD><TD>REACTOME_BRANCHED_CHAIN_AMINO_ACID_CATABOLISM</TD><TD>18</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.535e-02</TD><TD>-3.67</TD><TD>general transcription initiation factor binding</TD><TD>molecular function</TD><TD>GO:0140296</TD><TD>15</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>2.589e-02</TD><TD>-3.65</TD><TD>protein polymerization</TD><TD>biological process</TD><TD>GO:0051258</TD><TD>16</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>2.608e-02</TD><TD>-3.65</TD><TD>CX</TD><TD>pfam domains</TD><TD>PF01705</TD><TD>16</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>F53C3.3</TD></TR>
+<TR><TD>2.664e-02</TD><TD>-3.63</TD><TD>WD40_repeat_dom_sf</TD><TD>interpro domains</TD><TD>IPR036322</TD><TD>151</TD><TD>2</TD><TD>14190</TD><TD>24</TD>
+<TD>Y32H12A.8,bbs-9</TD></TR>
+<TR><TD>2.672e-02</TD><TD>-3.62</TD><TD>GSE37605_TREG_VS_TCONV_C57BL6_FOXP3_FUSION_GFP_UP</TD><TD>MSigDB lists</TD><TD>GSE37605_TREG_VS_TCONV_C57BL6_FOXP3_FUSION_GFP_UP</TD><TD>19</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.672e-02</TD><TD>-3.62</TD><TD>GSE7460_TREG_VS_TCONV_ACT_WITH_TGFB_UP</TD><TD>MSigDB lists</TD><TD>GSE7460_TREG_VS_TCONV_ACT_WITH_TGFB_UP</TD><TD>19</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>2.672e-02</TD><TD>-3.62</TD><TD>SHAFFER_IRF4_TARGETS_IN_ACTIVATED_DENDRITIC_CELL</TD><TD>MSigDB lists</TD><TD>SHAFFER_IRF4_TARGETS_IN_ACTIVATED_DENDRITIC_CELL</TD><TD>19</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.673e-02</TD><TD>-3.62</TD><TD>TF_T-box_CS</TD><TD>interpro domains</TD><TD>IPR018186</TD><TD>16</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>2.673e-02</TD><TD>-3.62</TD><TD>CX</TD><TD>interpro domains</TD><TD>IPR002619</TD><TD>16</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>F53C3.3</TD></TR>
+<TR><TD>2.673e-02</TD><TD>-3.62</TD><TD>SANT/Myb</TD><TD>interpro domains</TD><TD>IPR001005</TD><TD>16</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>2.748e-02</TD><TD>-3.59</TD><TD>microtubule polymerization or depolymerization</TD><TD>biological process</TD><TD>GO:0031109</TD><TD>17</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>2.811e-02</TD><TD>-3.57</TD><TD>MODULE_305</TD><TD>MSigDB lists</TD><TD>MODULE_305</TD><TD>20</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.811e-02</TD><TD>-3.57</TD><TD>MORF_PTPRR</TD><TD>MSigDB lists</TD><TD>MORF_PTPRR</TD><TD>20</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.811e-02</TD><TD>-3.57</TD><TD>GO_BRANCHED_CHAIN_AMINO_ACID_METABOLIC_PROCESS</TD><TD>MSigDB lists</TD><TD>GO_BRANCHED_CHAIN_AMINO_ACID_METABOLIC_PROCESS</TD><TD>20</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>2.811e-02</TD><TD>-3.57</TD><TD>HOEBEKE_LYMPHOID_STEM_CELL_DN</TD><TD>MSigDB lists</TD><TD>HOEBEKE_LYMPHOID_STEM_CELL_DN</TD><TD>20</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.811e-02</TD><TD>-3.57</TD><TD>GSE12963_ENV_NEF_VS_ENV_NEF_AND_VPR_DEFICIENT_HIV1_INF_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE12963_ENV_NEF_VS_ENV_NEF_AND_VPR_DEFICIENT_HIV1_INF_CD4_TCELL_UP</TD><TD>20</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>2.811e-02</TD><TD>-3.57</TD><TD>MODULE_299</TD><TD>MSigDB lists</TD><TD>MODULE_299</TD><TD>20</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.929e-02</TD><TD>-3.53</TD><TD>LSM</TD><TD>pfam domains</TD><TD>PF01423</TD><TD>18</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>2.950e-02</TD><TD>-3.52</TD><TD>GO_REGULATION_OF_PHOSPHATASE_ACTIVITY</TD><TD>MSigDB lists</TD><TD>GO_REGULATION_OF_PHOSPHATASE_ACTIVITY</TD><TD>21</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>2.950e-02</TD><TD>-3.52</TD><TD>GO_FAT_CELL_DIFFERENTIATION</TD><TD>MSigDB lists</TD><TD>GO_FAT_CELL_DIFFERENTIATION</TD><TD>21</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>2.950e-02</TD><TD>-3.52</TD><TD>GSE12963_UNINF_VS_ENV_AND_NEF_AND_VPR_DEFICIENT_HIV1_INF_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE12963_UNINF_VS_ENV_AND_NEF_AND_VPR_DEFICIENT_HIV1_INF_CD4_TCELL_UP</TD><TD>21</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>2.950e-02</TD><TD>-3.52</TD><TD>PEREZ_TP53_AND_TP63_TARGETS</TD><TD>MSigDB lists</TD><TD>PEREZ_TP53_AND_TP63_TARGETS</TD><TD>21</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>3.003e-02</TD><TD>-3.51</TD><TD>LSM_dom_euk/arc</TD><TD>interpro domains</TD><TD>IPR001163</TD><TD>18</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>3.012e-02</TD><TD>-3.50</TD><TD>transcription factor binding</TD><TD>molecular function</TD><TD>GO:0008134</TD><TD>161</TD><TD>2</TD><TD>9362</TD><TD>16</TD>
+<TD>tbx-39,B0261.1</TD></TR>
+<TR><TD>3.067e-02</TD><TD>-3.48</TD><TD>regulation of small molecule metabolic process</TD><TD>biological process</TD><TD>GO:0062012</TD><TD>19</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.089e-02</TD><TD>-3.48</TD><TD>GSE16266_CTRL_VS_LPS_STIM_MEF_DN</TD><TD>MSigDB lists</TD><TD>GSE16266_CTRL_VS_LPS_STIM_MEF_DN</TD><TD>22</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.089e-02</TD><TD>-3.48</TD><TD>KEGG_PROSTATE_CANCER</TD><TD>MSigDB lists</TD><TD>KEGG_PROSTATE_CANCER</TD><TD>22</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.089e-02</TD><TD>-3.48</TD><TD>TGCAAAC_MIR452</TD><TD>MSigDB lists</TD><TD>TGCAAAC_MIR452</TD><TD>22</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.089e-02</TD><TD>-3.48</TD><TD>NRL_DN.V1_UP</TD><TD>MSigDB lists</TD><TD>NRL_DN.V1_UP</TD><TD>22</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.089e-02</TD><TD>-3.48</TD><TD>GSE16450_CTRL_VS_IFNA_12H_STIM_MATURE_NEURON_CELL_LINE_UP</TD><TD>MSigDB lists</TD><TD>GSE16450_CTRL_VS_IFNA_12H_STIM_MATURE_NEURON_CELL_LINE_UP</TD><TD>22</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.089e-02</TD><TD>-3.48</TD><TD>GSE35543_IN_VIVO_NTREG_VS_IN_VITRO_ITREG_DN</TD><TD>MSigDB lists</TD><TD>GSE35543_IN_VIVO_NTREG_VS_IN_VITRO_ITREG_DN</TD><TD>22</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.135e-02</TD><TD>-3.46</TD><TD>Phospholipid metabolism</TD><TD>REACTOME pathways</TD><TD>R-CEL-1483257</TD><TD>131</TD><TD>2</TD><TD>3154</TD><TD>7</TD>
+<TD>ckb-2,ckb-1</TD></TR>
+<TR><TD>3.167e-02</TD><TD>-3.45</TD><TD>LSM_dom_sf</TD><TD>interpro domains</TD><TD>IPR010920</TD><TD>19</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>3.186e-02</TD><TD>-3.45</TD><TD>SANT</TD><TD>smart domains</TD><TD>SM00717</TD><TD>16</TD><TD>1</TD><TD>5448</TD><TD>11</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>3.227e-02</TD><TD>-3.43</TD><TD>GO_GLYOXYLATE_METABOLIC_PROCESS</TD><TD>MSigDB lists</TD><TD>GO_GLYOXYLATE_METABOLIC_PROCESS</TD><TD>23</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.227e-02</TD><TD>-3.43</TD><TD>MORF_CD8A</TD><TD>MSigDB lists</TD><TD>MORF_CD8A</TD><TD>23</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.227e-02</TD><TD>-3.43</TD><TD>GSE6269_HEALTHY_VS_STAPH_AUREUS_INF_PBMC_UP</TD><TD>MSigDB lists</TD><TD>GSE6269_HEALTHY_VS_STAPH_AUREUS_INF_PBMC_UP</TD><TD>23</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.227e-02</TD><TD>-3.43</TD><TD>GSE15733_BM_VS_SPLEEN_MEMORY_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE15733_BM_VS_SPLEEN_MEMORY_CD4_TCELL_UP</TD><TD>23</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.227e-02</TD><TD>-3.43</TD><TD>GSE15330_HSC_VS_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_UP</TD><TD>MSigDB lists</TD><TD>GSE15330_HSC_VS_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_UP</TD><TD>23</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.227e-02</TD><TD>-3.43</TD><TD>REACTOME_TOLL_RECEPTOR_CASCADES</TD><TD>MSigDB lists</TD><TD>REACTOME_TOLL_RECEPTOR_CASCADES</TD><TD>23</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.340e-02</TD><TD>-3.40</TD><TD>cellular component biogenesis</TD><TD>biological process</TD><TD>GO:0044085</TD><TD>781</TD><TD>4</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2,B0261.1,bbs-9,tmem-107</TD></TR>
+<TR><TD>3.366e-02</TD><TD>-3.39</TD><TD>GSE21927_SPLENIC_C26GM_TUMOROUS_VS_4T1_TUMOR_MONOCYTES_UP</TD><TD>MSigDB lists</TD><TD>GSE21927_SPLENIC_C26GM_TUMOROUS_VS_4T1_TUMOR_MONOCYTES_UP</TD><TD>24</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>3.366e-02</TD><TD>-3.39</TD><TD>GAGACTG_MIR452</TD><TD>MSigDB lists</TD><TD>GAGACTG_MIR452</TD><TD>24</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.366e-02</TD><TD>-3.39</TD><TD>GO_NUCLEAR_MATRIX</TD><TD>MSigDB lists</TD><TD>GO_NUCLEAR_MATRIX</TD><TD>24</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>3.366e-02</TD><TD>-3.39</TD><TD>GSE6259_FLT3L_INDUCED_VS_WT_SPLENIC_DC_33D1_POS_DN</TD><TD>MSigDB lists</TD><TD>GSE6259_FLT3L_INDUCED_VS_WT_SPLENIC_DC_33D1_POS_DN</TD><TD>24</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.366e-02</TD><TD>-3.39</TD><TD>GSE13547_CTRL_VS_ANTI_IGM_STIM_ZFX_KO_BCELL_12H_DN</TD><TD>MSigDB lists</TD><TD>GSE13547_CTRL_VS_ANTI_IGM_STIM_ZFX_KO_BCELL_12H_DN</TD><TD>24</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.366e-02</TD><TD>-3.39</TD><TD>GSE13738_RESTING_VS_TCR_ACTIVATED_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE13738_RESTING_VS_TCR_ACTIVATED_CD4_TCELL_UP</TD><TD>24</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.367e-02</TD><TD>-3.39</TD><TD>tRNA methyltransferase activity</TD><TD>molecular function</TD><TD>GO:0008175</TD><TD>20</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>3.382e-02</TD><TD>-3.39</TD><TD>Sm</TD><TD>smart domains</TD><TD>SM00651</TD><TD>17</TD><TD>1</TD><TD>5448</TD><TD>11</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>3.410e-02</TD><TD>-3.38</TD><TD>T-box</TD><TD>pfam domains</TD><TD>PF00907</TD><TD>21</TD><TD>1</TD><TD>12733</TD><TD>21</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>3.423e-02</TD><TD>-3.37</TD><TD>lipid metabolic process</TD><TD>biological process</TD><TD>GO:0006629</TD><TD>449</TD><TD>3</TD><TD>9166</TD><TD>15</TD>
+<TD>ckb-2,ckb-1,dbt-1</TD></TR>
+<TR><TD>3.461e-02</TD><TD>-3.36</TD><TD>endoplasmic reticulum lumen</TD><TD>cellular component</TD><TD>GO:0005788</TD><TD>24</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.495e-02</TD><TD>-3.35</TD><TD>T-box_sf</TD><TD>interpro domains</TD><TD>IPR036960</TD><TD>21</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>3.504e-02</TD><TD>-3.35</TD><TD>MUNSHI_MULTIPLE_MYELOMA_UP</TD><TD>MSigDB lists</TD><TD>MUNSHI_MULTIPLE_MYELOMA_UP</TD><TD>25</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.504e-02</TD><TD>-3.35</TD><TD>MORF_THPO</TD><TD>MSigDB lists</TD><TD>MORF_THPO</TD><TD>25</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.504e-02</TD><TD>-3.35</TD><TD>GSE34156_UNTREATED_VS_6H_NOD2_AND_TLR1_TLR2_LIGAND_TREATED_MONOCYTE_UP</TD><TD>MSigDB lists</TD><TD>GSE34156_UNTREATED_VS_6H_NOD2_AND_TLR1_TLR2_LIGAND_TREATED_MONOCYTE_UP</TD><TD>25</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.504e-02</TD><TD>-3.35</TD><TD>GSE22886_NAIVE_CD4_TCELL_VS_MEMORY_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE22886_NAIVE_CD4_TCELL_VS_MEMORY_TCELL_UP</TD><TD>25</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.504e-02</TD><TD>-3.35</TD><TD>CHIARADONNA_NEOPLASTIC_TRANSFORMATION_CDC25_UP</TD><TD>MSigDB lists</TD><TD>CHIARADONNA_NEOPLASTIC_TRANSFORMATION_CDC25_UP</TD><TD>25</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.532e-02</TD><TD>-3.34</TD><TD>TBOX_3</TD><TD>prosite domains</TD><TD>PS50252</TD><TD>21</TD><TD>1</TD><TD>7024</TD><TD>12</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>3.543e-02</TD><TD>-3.34</TD><TD>transcription preinitiation complex assembly</TD><TD>biological process</TD><TD>GO:0070897</TD><TD>22</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GSE14415_INDUCED_TREG_VS_TCONV_DN</TD><TD>MSigDB lists</TD><TD>GSE14415_INDUCED_TREG_VS_TCONV_DN</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>KYNG_DNA_DAMAGE_BY_UV</TD><TD>MSigDB lists</TD><TD>KYNG_DNA_DAMAGE_BY_UV</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GSE3982_EOSINOPHIL_VS_MAST_CELL_UP</TD><TD>MSigDB lists</TD><TD>GSE3982_EOSINOPHIL_VS_MAST_CELL_UP</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GO_CILIARY_MEMBRANE</TD><TD>MSigDB lists</TD><TD>GO_CILIARY_MEMBRANE</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GO_PROTEIN_PHOSPHATASE_BINDING</TD><TD>MSigDB lists</TD><TD>GO_PROTEIN_PHOSPHATASE_BINDING</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GSE3982_MEMORY_CD4_TCELL_VS_TH1_UP</TD><TD>MSigDB lists</TD><TD>GSE3982_MEMORY_CD4_TCELL_VS_TH1_UP</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>SHAFFER_IRF4_TARGETS_IN_MYELOMA_VS_MATURE_B_LYMPHOCYTE</TD><TD>MSigDB lists</TD><TD>SHAFFER_IRF4_TARGETS_IN_MYELOMA_VS_MATURE_B_LYMPHOCYTE</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GO_ACTIN_FILAMENT_ORGANIZATION</TD><TD>MSigDB lists</TD><TD>GO_ACTIN_FILAMENT_ORGANIZATION</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.642e-02</TD><TD>-3.31</TD><TD>GSE4142_GC_BCELL_VS_MEMORY_BCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE4142_GC_BCELL_VS_MEMORY_BCELL_UP</TD><TD>26</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.658e-02</TD><TD>-3.31</TD><TD>TF_T-box</TD><TD>interpro domains</TD><TD>IPR001699</TD><TD>22</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>3.716e-02</TD><TD>-3.29</TD><TD>Cyclin A/B1 associated events during G2/M transition</TD><TD>REACTOME pathways</TD><TD>R-CEL-69273</TD><TD>17</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>wee-1.1</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>GSE40274_CTRL_VS_XBP1_TRANSDUCED_ACTIVATED_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE40274_CTRL_VS_XBP1_TRANSDUCED_ACTIVATED_CD4_TCELL_UP</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>WHITFIELD_CELL_CYCLE_G1_S</TD><TD>MSigDB lists</TD><TD>WHITFIELD_CELL_CYCLE_G1_S</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>GSE46606_IRF4MID_VS_WT_CD40L_IL2_IL5_DAY1_STIMULATED_BCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE46606_IRF4MID_VS_WT_CD40L_IL2_IL5_DAY1_STIMULATED_BCELL_UP</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>GSE14769_UNSTIM_VS_20MIN_LPS_BMDM_DN</TD><TD>MSigDB lists</TD><TD>GSE14769_UNSTIM_VS_20MIN_LPS_BMDM_DN</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>GSE15330_LYMPHOID_MULTIPOTENT_VS_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_IKAROS_KO_UP</TD><TD>MSigDB lists</TD><TD>GSE15330_LYMPHOID_MULTIPOTENT_VS_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_IKAROS_KO_UP</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>GSE4748_CTRL_VS_CYANOBACTERIUM_LPSLIKE_STIM_DC_3H_UP</TD><TD>MSigDB lists</TD><TD>GSE4748_CTRL_VS_CYANOBACTERIUM_LPSLIKE_STIM_DC_3H_UP</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>3.780e-02</TD><TD>-3.28</TD><TD>GSE6269_FLU_VS_STAPH_AUREUS_INF_PBMC_UP</TD><TD>MSigDB lists</TD><TD>GSE6269_FLU_VS_STAPH_AUREUS_INF_PBMC_UP</TD><TD>27</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.792e-02</TD><TD>-3.27</TD><TD>-</TD><TD>gene3d domains</TD><TD>2.60.40.820</TD><TD>21</TD><TD>1</TD><TD>5448</TD><TD>10</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>3.859e-02</TD><TD>-3.25</TD><TD>tRNA methylation</TD><TD>biological process</TD><TD>GO:0030488</TD><TD>24</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>3.862e-02</TD><TD>-3.25</TD><TD>RNA polymerase II activating transcription factor binding</TD><TD>molecular function</TD><TD>GO:0001102</TD><TD>23</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>3.869e-02</TD><TD>-3.25</TD><TD>response to endoplasmic reticulum stress</TD><TD>biological process</TD><TD>GO:0034976</TD><TD>193</TD><TD>2</TD><TD>9166</TD><TD>15</TD>
+<TD>enpl-1,ckb-2</TD></TR>
+<TR><TD>3.918e-02</TD><TD>-3.24</TD><TD>LIU_VMYB_TARGETS_UP</TD><TD>MSigDB lists</TD><TD>LIU_VMYB_TARGETS_UP</TD><TD>28</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>3.918e-02</TD><TD>-3.24</TD><TD>GO_RESPONSE_TO_ORGANOPHOSPHORUS</TD><TD>MSigDB lists</TD><TD>GO_RESPONSE_TO_ORGANOPHOSPHORUS</TD><TD>28</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>3.918e-02</TD><TD>-3.24</TD><TD>JUBAN_TARGETS_OF_SPI1_AND_FLI1_UP</TD><TD>MSigDB lists</TD><TD>JUBAN_TARGETS_OF_SPI1_AND_FLI1_UP</TD><TD>28</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>3.918e-02</TD><TD>-3.24</TD><TD>MORF_TNFRSF6</TD><TD>MSigDB lists</TD><TD>MORF_TNFRSF6</TD><TD>28</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>3.918e-02</TD><TD>-3.24</TD><TD>GSE3203_HEALTHY_VS_INFLUENZA_INFECTED_LN_BCELL_DN</TD><TD>MSigDB lists</TD><TD>GSE3203_HEALTHY_VS_INFLUENZA_INFECTED_LN_BCELL_DN</TD><TD>28</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.017e-02</TD><TD>-3.21</TD><TD>mRNA 3'-end processing</TD><TD>biological process</TD><TD>GO:0031124</TD><TD>25</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>C49H3.4</TD></TR>
+<TR><TD>4.044e-02</TD><TD>-3.21</TD><TD>intracellular membrane-bounded organelle</TD><TD>cellular component</TD><TD>GO:0043231</TD><TD>4095</TD><TD>10</TD><TD>11604</TD><TD>17</TD>
+<TD>dbt-1,tbx-39,C56G2.3,B0261.1,wee-1.1,nhr-172,Y32H12A.8,enpl-1,ugt-11,C49H3.4</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>GSE6566_STRONG_VS_WEAK_DC_STIMULATED_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE6566_STRONG_VS_WEAK_DC_STIMULATED_CD4_TCELL_UP</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>GSE21063_WT_VS_NFATC1_KO_BCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE21063_WT_VS_NFATC1_KO_BCELL_UP</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>GSE24634_TEFF_VS_TCONV_DAY5_IN_CULTURE_DN</TD><TD>MSigDB lists</TD><TD>GSE24634_TEFF_VS_TCONV_DAY5_IN_CULTURE_DN</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>GSE17974_CTRL_VS_ACT_IL4_AND_ANTI_IL12_4H_CD4_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE17974_CTRL_VS_ACT_IL4_AND_ANTI_IL12_4H_CD4_TCELL_UP</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>CRX_NRL_DN.V1_UP</TD><TD>MSigDB lists</TD><TD>CRX_NRL_DN.V1_UP</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>GSE2405_0H_VS_3H_A_PHAGOCYTOPHILUM_STIM_NEUTROPHIL_DN</TD><TD>MSigDB lists</TD><TD>GSE2405_0H_VS_3H_A_PHAGOCYTOPHILUM_STIM_NEUTROPHIL_DN</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.055e-02</TD><TD>-3.21</TD><TD>GSE37534_GW1929_VS_PIOGLITAZONE_TREATED_CD4_TCELL_PPARG1_FOXP3_TRANSDUCED_UP</TD><TD>MSigDB lists</TD><TD>GSE37534_GW1929_VS_PIOGLITAZONE_TREATED_CD4_TCELL_PPARG1_FOXP3_TRANSDUCED_UP</TD><TD>29</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.069e-02</TD><TD>-3.20</TD><TD>SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN</TD><TD>MSigDB lists</TD><TD>SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN</TD><TD>241</TD><TD>2</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1,gcl-1</TD></TR>
+<TR><TD>4.163e-02</TD><TD>-3.18</TD><TD>TBOX</TD><TD>smart domains</TD><TD>SM00425</TD><TD>21</TD><TD>1</TD><TD>5448</TD><TD>11</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN</TD><TD>MSigDB lists</TD><TD>ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>ROME_INSULIN_TARGETS_IN_MUSCLE_DN</TD><TD>MSigDB lists</TD><TD>ROME_INSULIN_TARGETS_IN_MUSCLE_DN</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>GSE8835_HEALTHY_VS_CLL_CD4_TCELL_DN</TD><TD>MSigDB lists</TD><TD>GSE8835_HEALTHY_VS_CLL_CD4_TCELL_DN</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>GSE20727_H2O2_VS_ROS_INHIBITOR_TREATED_DC_UP</TD><TD>MSigDB lists</TD><TD>GSE20727_H2O2_VS_ROS_INHIBITOR_TREATED_DC_UP</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>HALLMARK_PI3K_AKT_MTOR_SIGNALING</TD><TD>MSigDB lists</TD><TD>HALLMARK_PI3K_AKT_MTOR_SIGNALING</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>YEGNASUBRAMANIAN_PROSTATE_CANCER</TD><TD>MSigDB lists</TD><TD>YEGNASUBRAMANIAN_PROSTATE_CANCER</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.193e-02</TD><TD>-3.17</TD><TD>GAL_LEUKEMIC_STEM_CELL_UP</TD><TD>MSigDB lists</TD><TD>GAL_LEUKEMIC_STEM_CELL_UP</TD><TD>30</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.248e-02</TD><TD>-3.16</TD><TD>Kinase-like_dom_sf</TD><TD>interpro domains</TD><TD>IPR011009</TD><TD>465</TD><TD>3</TD><TD>14190</TD><TD>24</TD>
+<TD>ckb-2,ckb-1,wee-1.1</TD></TR>
+<TR><TD>4.288e-02</TD><TD>-3.15</TD><TD>intracellular organelle part</TD><TD>cellular component</TD><TD>GO:0044446</TD><TD>2384</TD><TD>7</TD><TD>11604</TD><TD>17</TD>
+<TD>enpl-1,F54A3.2,C56G2.3,B0261.1,bbs-9,C49H3.4,dbt-1</TD></TR>
+<TR><TD>4.308e-02</TD><TD>-3.14</TD><TD>spindle pole</TD><TD>cellular component</TD><TD>GO:0000922</TD><TD>30</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>4.308e-02</TD><TD>-3.14</TD><TD>ciliary transition zone</TD><TD>cellular component</TD><TD>GO:0035869</TD><TD>30</TD><TD>1</TD><TD>11604</TD><TD>17</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GO_PHOSPHATASE_BINDING</TD><TD>MSigDB lists</TD><TD>GO_PHOSPHATASE_BINDING</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GSE4142_PLASMA_CELL_VS_MEMORY_BCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE4142_PLASMA_CELL_VS_MEMORY_BCELL_UP</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GSE37301_CD4_TCELL_VS_GRANULOCYTE_MONOCYTE_PROGENITOR_UP</TD><TD>MSigDB lists</TD><TD>GSE37301_CD4_TCELL_VS_GRANULOCYTE_MONOCYTE_PROGENITOR_UP</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GSE32423_CTRL_VS_IL4_MEMORY_CD8_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE32423_CTRL_VS_IL4_MEMORY_CD8_TCELL_UP</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GSE25088_WT_VS_STAT6_KO_MACROPHAGE_IL4_STIM_UP</TD><TD>MSigDB lists</TD><TD>GSE25088_WT_VS_STAT6_KO_MACROPHAGE_IL4_STIM_UP</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GSE29618_PDC_VS_MDC_UP</TD><TD>MSigDB lists</TD><TD>GSE29618_PDC_VS_MDC_UP</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GSE37301_PRO_BCELL_VS_RAG2_KO_NK_CELL_DN</TD><TD>MSigDB lists</TD><TD>GSE37301_PRO_BCELL_VS_RAG2_KO_NK_CELL_DN</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>GO_REGULATION_OF_DEPHOSPHORYLATION</TD><TD>MSigDB lists</TD><TD>GO_REGULATION_OF_DEPHOSPHORYLATION</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.330e-02</TD><TD>-3.14</TD><TD>LIU_CMYB_TARGETS_UP</TD><TD>MSigDB lists</TD><TD>LIU_CMYB_TARGETS_UP</TD><TD>31</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>4.332e-02</TD><TD>-3.14</TD><TD>positive regulation of oviposition</TD><TD>biological process</TD><TD>GO:1901046</TD><TD>27</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.332e-02</TD><TD>-3.14</TD><TD>centrosome cycle</TD><TD>biological process</TD><TD>GO:0007098</TD><TD>27</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>4.368e-02</TD><TD>-3.13</TD><TD>sgt-1 (Small Glutamine-rich Tetratrico repeat protein)</TD><TD>protein interactions</TD><TD>173846</TD><TD>35</TD><TD>1</TD><TD>3938</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.467e-02</TD><TD>-3.11</TD><TD>EBAUER_TARGETS_OF_PAX3_FOXO1_FUSION_UP</TD><TD>MSigDB lists</TD><TD>EBAUER_TARGETS_OF_PAX3_FOXO1_FUSION_UP</TD><TD>32</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.467e-02</TD><TD>-3.11</TD><TD>MORF_BCL2L11</TD><TD>MSigDB lists</TD><TD>MORF_BCL2L11</TD><TD>32</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.467e-02</TD><TD>-3.11</TD><TD>GSE25123_IL4_VS_IL4_AND_ROSIGLITAZONE_STIM_PPARG_KO_MACROPHAGE_DAY10_UP</TD><TD>MSigDB lists</TD><TD>GSE25123_IL4_VS_IL4_AND_ROSIGLITAZONE_STIM_PPARG_KO_MACROPHAGE_DAY10_UP</TD><TD>32</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.467e-02</TD><TD>-3.11</TD><TD>GO_RESPONSE_TO_PURINE_CONTAINING_COMPOUND</TD><TD>MSigDB lists</TD><TD>GO_RESPONSE_TO_PURINE_CONTAINING_COMPOUND</TD><TD>32</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.467e-02</TD><TD>-3.11</TD><TD>GSE24142_ADULT_VS_FETAL_DN2_THYMOCYTE_UP</TD><TD>MSigDB lists</TD><TD>GSE24142_ADULT_VS_FETAL_DN2_THYMOCYTE_UP</TD><TD>32</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.489e-02</TD><TD>-3.10</TD><TD>regulation of lipid metabolic process</TD><TD>biological process</TD><TD>GO:0019216</TD><TD>28</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.489e-02</TD><TD>-3.10</TD><TD>microtubule organizing center organization</TD><TD>biological process</TD><TD>GO:0031023</TD><TD>28</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>F54A3.2</TD></TR>
+<TR><TD>4.489e-02</TD><TD>-3.10</TD><TD>protein localization to cilium</TD><TD>biological process</TD><TD>GO:0061512</TD><TD>28</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>tmem-107</TD></TR>
+<TR><TD>4.489e-02</TD><TD>-3.10</TD><TD>transcription by RNA polymerase III</TD><TD>biological process</TD><TD>GO:0006383</TD><TD>28</TD><TD>1</TD><TD>9166</TD><TD>15</TD>
+<TD>B0261.1</TD></TR>
+<TR><TD>4.519e-02</TD><TD>-3.10</TD><TD>activating transcription factor binding</TD><TD>molecular function</TD><TD>GO:0033613</TD><TD>27</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>4.519e-02</TD><TD>-3.10</TD><TD>tRNA binding</TD><TD>molecular function</TD><TD>GO:0000049</TD><TD>27</TD><TD>1</TD><TD>9362</TD><TD>16</TD>
+<TD>C56G2.3</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>GSE3982_EOSINOPHIL_VS_MAC_UP</TD><TD>MSigDB lists</TD><TD>GSE3982_EOSINOPHIL_VS_MAC_UP</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>GSE40666_WT_VS_STAT4_KO_CD8_TCELL_WITH_IFNA_STIM_90MIN_UP</TD><TD>MSigDB lists</TD><TD>GSE40666_WT_VS_STAT4_KO_CD8_TCELL_WITH_IFNA_STIM_90MIN_UP</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>REACTOME_UNFOLDED_PROTEIN_RESPONSE</TD><TD>MSigDB lists</TD><TD>REACTOME_UNFOLDED_PROTEIN_RESPONSE</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>GSE20152_SPHK1_KO_VS_HTNFA_OVEREXPRESS_ANKLE_UP</TD><TD>MSigDB lists</TD><TD>GSE20152_SPHK1_KO_VS_HTNFA_OVEREXPRESS_ANKLE_UP</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>GSE15330_HSC_VS_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_DN</TD><TD>MSigDB lists</TD><TD>GSE15330_HSC_VS_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_DN</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>BOQUEST_STEM_CELL_UP</TD><TD>MSigDB lists</TD><TD>BOQUEST_STEM_CELL_UP</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.604e-02</TD><TD>-3.08</TD><TD>GSE3982_EFF_MEMORY_CD4_TCELL_VS_NKCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE3982_EFF_MEMORY_CD4_TCELL_VS_NKCELL_UP</TD><TD>33</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.633e-02</TD><TD>-3.07</TD><TD>p53-like_TF_DNA-bd</TD><TD>interpro domains</TD><TD>IPR008967</TD><TD>28</TD><TD>1</TD><TD>14190</TD><TD>24</TD>
+<TD>tbx-39</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE19888_ADENOSINE_A3R_ACT_VS_TCELL_MEMBRANES_ACT_AND_A3R_INH_PRETREAT_IN_MAST_CELL_DN</TD><TD>MSigDB lists</TD><TD>GSE19888_ADENOSINE_A3R_ACT_VS_TCELL_MEMBRANES_ACT_AND_A3R_INH_PRETREAT_IN_MAST_CELL_DN</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE18281_CORTICAL_VS_MEDULLARY_THYMOCYTE_UP</TD><TD>MSigDB lists</TD><TD>GSE18281_CORTICAL_VS_MEDULLARY_THYMOCYTE_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE20727_H2O2_VS_ROS_INHIBITOR_TREATED_DC_DN</TD><TD>MSigDB lists</TD><TD>GSE20727_H2O2_VS_ROS_INHIBITOR_TREATED_DC_DN</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE36392_MAC_VS_NEUTROPHIL_IL25_TREATED_LUNG_UP</TD><TD>MSigDB lists</TD><TD>GSE36392_MAC_VS_NEUTROPHIL_IL25_TREATED_LUNG_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE3039_CD4_TCELL_VS_B2_BCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE3039_CD4_TCELL_VS_B2_BCELL_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE557_CIITA_KO_VS_I_AB_KO_DC_UP</TD><TD>MSigDB lists</TD><TD>GSE557_CIITA_KO_VS_I_AB_KO_DC_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE22886_NAIVE_VS_MEMORY_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE22886_NAIVE_VS_MEMORY_TCELL_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE3982_BASOPHIL_VS_TH1_UP</TD><TD>MSigDB lists</TD><TD>GSE3982_BASOPHIL_VS_TH1_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE22432_CDC_VS_COMMON_DC_PROGENITOR_UP</TD><TD>MSigDB lists</TD><TD>GSE22432_CDC_VS_COMMON_DC_PROGENITOR_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>REACTOME_INNATE_IMMUNE_SYSTEM</TD><TD>MSigDB lists</TD><TD>REACTOME_INNATE_IMMUNE_SYSTEM</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.741e-02</TD><TD>-3.05</TD><TD>GSE39916_B_CELL_SPLEEN_VS_PLASMA_CELL_BONE_MARROW_UP</TD><TD>MSigDB lists</TD><TD>GSE39916_B_CELL_SPLEEN_VS_PLASMA_CELL_BONE_MARROW_UP</TD><TD>34</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.744e-02</TD><TD>-3.05</TD><TD>nucleic acid metabolic process</TD><TD>biological process</TD><TD>GO:0090304</TD><TD>872</TD><TD>4</TD><TD>9166</TD><TD>15</TD>
+<TD>C49H3.4,B0261.1,C56G2.3,T21E8.5</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GO_NONMOTILE_PRIMARY_CILIUM</TD><TD>MSigDB lists</TD><TD>GO_NONMOTILE_PRIMARY_CILIUM</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE5679_PPARG_LIGAND_ROSIGLITAZONE_VS_ROSIGLITAZONE_AND_RARA_AGONIST_AM580_TREATED_DC_DN</TD><TD>MSigDB lists</TD><TD>GSE5679_PPARG_LIGAND_ROSIGLITAZONE_VS_ROSIGLITAZONE_AND_RARA_AGONIST_AM580_TREATED_DC_DN</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE360_DC_VS_MAC_M_TUBERCULOSIS_UP</TD><TD>MSigDB lists</TD><TD>GSE360_DC_VS_MAC_M_TUBERCULOSIS_UP</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE3982_EOSINOPHIL_VS_TH2_UP</TD><TD>MSigDB lists</TD><TD>GSE3982_EOSINOPHIL_VS_TH2_UP</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>dbt-1</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE13306_TREG_VS_TCONV_LAMINA_PROPRIA_DN</TD><TD>MSigDB lists</TD><TD>GSE13306_TREG_VS_TCONV_LAMINA_PROPRIA_DN</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE2585_CD80_HIGH_VS_LOW_AIRE_KO_MTEC_UP</TD><TD>MSigDB lists</TD><TD>GSE2585_CD80_HIGH_VS_LOW_AIRE_KO_MTEC_UP</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE26928_EFF_MEMORY_VS_CXCR5_POS_CD4_TCELL_DN</TD><TD>MSigDB lists</TD><TD>GSE26928_EFF_MEMORY_VS_CXCR5_POS_CD4_TCELL_DN</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>bbs-9</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE29617_DAY3_VS_DAY7_TIV_FLU_VACCINE_PBMC_2008_DN</TD><TD>MSigDB lists</TD><TD>GSE29617_DAY3_VS_DAY7_TIV_FLU_VACCINE_PBMC_2008_DN</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>enpl-1</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE37563_WT_VS_CTLA4_KO_CD4_TCELL_D4_POST_IMMUNIZATION_UP</TD><TD>MSigDB lists</TD><TD>GSE37563_WT_VS_CTLA4_KO_CD4_TCELL_D4_POST_IMMUNIZATION_UP</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>gcl-1</TD></TR>
+<TR><TD>4.878e-02</TD><TD>-3.02</TD><TD>GSE40666_NAIVE_VS_EFFECTOR_CD8_TCELL_UP</TD><TD>MSigDB lists</TD><TD>GSE40666_NAIVE_VS_EFFECTOR_CD8_TCELL_UP</TD><TD>35</TD><TD>1</TD><TD>3519</TD><TD>5</TD>
+<TD>ucp-4</TD></TR>
+<TR><TD>4.999e-02</TD><TD>-3.00</TD><TD>Glyoxylate metabolism and glycine degradation</TD><TD>REACTOME pathways</TD><TD>R-CEL-389661</TD><TD>23</TD><TD>1</TD><TD>3154</TD><TD>7</TD>
+<TD>dbt-1</TD></TR>
+</TABLE>
+</BODY></HTML>

@@ -1,0 +1,12 @@
+Motif Name	Consensus	P-value	Log P-value	q-value (Benjamini)	# of Target Sequences with Motif(of 205)	% of Target Sequences with Motif	# of Background Sequences with Motif(of 37563)	% of Background Sequences with Motif
+LIN-15B(Zf)/cElegans-L3-LIN15B-ChIP-Seq(modEncode)/Homer	CARTGGAGCGCRYTTGCATT	1e-2	-5.834e+00	0.0322	25.0	12.20%	2516.7	6.70%
+EFL-1(E2F)/cElegans-L1-EFL1-ChIP-Seq(modEncode)/Homer	TGCAARYGCGCTCYA	1e-1	-4.000e+00	0.1007	23.0	11.22%	2636.3	7.02%
+DPL-1(E2F)/cElegans-Adult-ChIP-Seq(modEncode)/Homer	TAGCGCGC	1e-1	-3.073e+00	0.1697	67.0	32.68%	10195.0	27.14%
+EGL-5(Homeobox)/cElegans-L3-EGL5-ChIP-Seq(modEncode)/Homer	ATTTAATGGG	1e0	-2.279e+00	0.2816	170.0	82.93%	29717.4	79.10%
+CES-1(Homeobox)/cElegans-L1-CES1-ChIP-Seq(modEncode)/Homer	AAATTSAATTTN	1e0	-7.190e-01	1.0000	146.0	71.22%	26612.5	70.84%
+LIN-39(Homeobox)/cElegans.L3-LIN39-ChIP-Seq(modEncode)/Homer	ATGATTRATG	1e0	-3.421e-01	1.0000	158.0	77.07%	29450.9	78.39%
+PHA-4(Forkhead)/cElegans-Embryos-PHA4-ChIP-Seq(modEncode)/Homer	KTGTTTGC	1e0	-2.021e-01	1.0000	167.0	81.46%	31390.0	83.56%
+GEI-11(Myb?)/cElegans-L4-GEI11-ChIP-Seq(modEncode)/Homer	CCGACAYYTYACGGG	1e0	-1.493e-02	1.0000	5.0	2.44%	1989.9	5.30%
+PQM-1(?)/cElegans-L3-ChIP-Seq(modEncode)/Homer	ACTGATAAGA	1e0	-7.388e-03	1.0000	48.0	23.41%	11603.4	30.89%
+HLH-1(bHLH)/cElegans-Embryo-HLH1-ChIP-Seq(modEncode)/Homer	RACAGCTGTTBH	1e0	-3.376e-03	1.0000	34.0	16.59%	9078.0	24.16%
+ELT-3(Gata)/cElegans-L1-ELT3-ChIP-Seq(modEncode)/Homer	AWTGATAAGA	1e0	-5.590e-04	1.0000	55.0	26.83%	14042.0	37.38%

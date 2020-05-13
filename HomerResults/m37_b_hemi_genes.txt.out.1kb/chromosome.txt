@@ -1,0 +1,2 @@
+TermID	Term	Enrichment	logP	Genes in Term	Target Genes in Term	Fraction of Targets in Term	Total Target Genes	Total Genes	Entrez Gene IDs	Gene Symbols
+worm chr-	worm chr-	1	0	40555	14	1	14	40555	190100,181582,183231,188810,191066,185177,187889,184851,172532,183199,171729,189667,181362,173308	Y50D4C.5,C27C12.3,C35C5.9,T23F6.2,ZC53.1,F31F6.3,ttr-28,F22F1.3,gld-1,pph-6,Y71G12B.18,Y38E10A.22,mes-1,Y105E8A.14
